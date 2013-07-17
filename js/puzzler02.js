@@ -15,3 +15,5 @@ function puzzler02() {
 	console.log(typeof e);
 	console.log(typeof f);
 }
+
+puzzler02();

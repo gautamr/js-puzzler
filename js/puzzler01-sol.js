@@ -4,8 +4,10 @@ function puzzler01_sol() {
     for (var i = 0; i <arr.length; i++) {
         (function(valueToAlert){
             var item = valueToAlert;
-            out.push(function(){ alert(item); });
+            out.push(function(){ console.log(item); });
         })(arr[i]);
      }
     out.forEach(function(func){ func(); });
 }
+
+puzzler01_sol();

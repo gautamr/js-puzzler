@@ -10,3 +10,6 @@ function fun2() {
 	    ok: false
 	};
 }
+
+console.log(fun1());
+console.log(fun2());
