@@ -1,5 +1,5 @@
 function maybe() {
-    console.log("…execute async, maybe?");
+    console.log("…execute async, maybe?...");
 }
 
 function proveIt() {
